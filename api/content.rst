@@ -9,3 +9,4 @@ Functionality and implementations relating to content management / creation in K
    :maxdepth: 2
    
    content/adapters
+   content/calendar

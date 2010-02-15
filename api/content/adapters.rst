@@ -6,7 +6,7 @@
 :mod:`karl.content.adapters.mailin`
 -----------------------------------
 
-.. class BlogEntryMailinHandler(context)
+.. class:: BlogEntryMailinHandler(context)
    
    Handles mailin requests for commenting on Blog entries.
    
@@ -21,7 +21,7 @@
       message.
 
 
-.. class BlogMailinHandler(context)
+.. class:: BlogMailinHandler(context)
    
    Handles mailin requests for creating new Blog entries.
    

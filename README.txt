@@ -1,14 +1,14 @@
 KARL Project Documentation
 ==========================
 
-`Sphinx <http://sphinx.pocoo.org/>`_ documentation for `KARL Project <http://karlproject.org/>`_. 
+Sphinx (http://sphinx.pocoo.org/) documentation for KARL Project (http://karlproject.org/). 
 
 Installation Steps
 ------------------
 
-#. Create a Sphinx documentation directory (if your project does not already have one) using ``sphinx-quickstart``
-#. ``$ git clone git://github.com/junkafarian/karldocs.git PATH_TO_DOCS/karl``
-#. Add the relevant files to your root ``toctree`` directive::
+1. Create a Sphinx documentation directory (if your project does not already have one) using `sphinx-quickstart`
+2. `$ git clone git://github.com/junkafarian/karldocs.git PATH_TO_DOCS/karl`
+3. Add the relevant files to your root `toctree` directive::
    
    KARL Project
    ------------

@@ -12,4 +12,5 @@ The documentation is listed alphabetically by module name.
    api/bootstrap
    api/cico
    api/consts
+   api/content
    api/utilities

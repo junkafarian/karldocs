@@ -9,6 +9,7 @@ Functionality and implementations relating to content management / creation in K
    
    content/adapters
    content/calendar
+   content/models
 
 For further description of the utilities provided in this package, please see the defined interfaces:
 

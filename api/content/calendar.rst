@@ -100,7 +100,7 @@
          
          ...
       
-      .. attrubte:: is_half_hour
+      .. attribute:: is_half_hour
          
          ``Bool`` value describing the duration of the slot.
       

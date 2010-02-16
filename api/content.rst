@@ -4,6 +4,7 @@
 ===================
 
 Functionality and implementations relating to content management / creation in KARL
+
 .. toctree::
    :maxdepth: 2
    

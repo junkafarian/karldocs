@@ -25,4 +25,7 @@
          
          Removes ``'blog'`` from context.
    
+   .. data:: blog_tool_factory
+      
+      ``BlogToolFactory`` object
 

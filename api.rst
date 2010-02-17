@@ -13,4 +13,5 @@ The documentation is listed alphabetically by module name.
    api/cico
    api/consts
    api/content
+   api/errorlog
    api/utilities

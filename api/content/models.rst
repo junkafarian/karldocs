@@ -9,3 +9,12 @@
    models/adapters
    models/attachments
    models/blog
+   models/commenting
+   models/files
+   models/forum
+   models/intranets
+   models/news
+   models/page
+   models/references
+   models/wiki
+

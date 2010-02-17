@@ -14,4 +14,6 @@ The documentation is listed alphabetically by module name.
    api/consts
    api/content
    api/errorlog
+   api/errorpage
+   api/events
    api/utilities

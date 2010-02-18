@@ -1,7 +1,7 @@
-.. _adapters_module:
+.. _models_adapters_module:
 
-:mod:`karl.adapters`
-====================
+:mod:`karl.models.adapters`
+===========================
 
 .. automodule:: karl.models.adapters
    
@@ -132,6 +132,57 @@
          
          Return ``True`` if current user is a moderator for the community.
       
+   .. autoclass:: LetterManager(context)
       
+      Mixin Class, requires an ``iface`` attribute to be set.
+      
+      This adapter is used to provide the navigation to filter listings by the
+      first letter of their title.
+      
+      .. attribute:: context
+         
+         The ``context`` object.
+      
+      .. method:: delta(delta)
+         
+         TODO: ...
+      
+      .. automethod:: get_info(request)
+         
+      
+   .. autoclass:: CommunityLetterManager(context)
+      
+      Extends ``LetterManager`` to provide the functionality for Community
+      listings.
+      
+      .. attribute:: iface
+         
+         ``karl.models.interfaces.ICommunities``
+   
+   .. autoclass:: ProfileLetterManager(context)
+      
+      Extends ``LetterManager`` to provide the functionality for Profile
+      listings.
+      
+      .. attribute:: iface
+         
+         ``karl.models.interfaces.IProfiles``
+   
+   .. autoclass:: PeopleReportLetterManager(context)
+      
+      TODO: ...
+      
+      .. attribute:: context
+         
+         The ``context`` object.
+      
+      .. method:: get_active_letters()
+         
+         TODO: ...
+      
+      .. method:: get_info(request)
+         
+         TODO: ...
+
 
 

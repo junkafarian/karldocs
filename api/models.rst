@@ -26,3 +26,21 @@ Other models:
    :maxdepth: 2
    
    models/adapters
+   models/catalog
+   models/community
+   models/feedstorage
+   models/image
+   models/mailin_monitor
+   models/members
+   models/peopledirectory
+   models/profile
+
+Model interfaces
+
+.. toctree::
+   :maxdepth: 2
+   
+   content/interfaces
+   models/interfaces
+
+   

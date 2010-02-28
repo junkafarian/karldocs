@@ -46,3 +46,34 @@ up utilities implementing marker interfaces.
 KARL Entry Points - Application Development
 ===========================================
 
+Event Subscribers
+-----------------
+
+KARL utilises the ``zope.component`` event framework to notify the system of
+common actions and to allow developers to perform additional processing when
+these actions take place.
+
+Most commonly it will be useful to hook into the ``repoze.folder`` events as
+they are used to notify when an object is being added or removed from the system
+(specifically their parent folder).
+
+For instance, if an attribute on a user's profile needed to be augmented when
+the profile was created, the following code could be used:
+
+.. code-block:: python
+   
+   >>> def comment_out_foo(obj, event):
+   ...     obj.text = obj.text.replace(' foo ', ' *** ')
+
+This can then be hooked up to the event using the following ZCML:
+
+.. code-block:: xml
+   
+   <subscriber
+       for="karl.models.interfaces.Profile
+            repoze.folder.interfaces.IObjectAddedEvent"
+       handler=".subscribers.comment_out_foo" />
+
+
+
+

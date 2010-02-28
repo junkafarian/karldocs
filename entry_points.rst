@@ -20,6 +20,14 @@ Application Bootstrapping
 
 When the :ref:`feature-persistence` layer is initialised, if there is no data structure found in the ZODB instance KARL will bootstrap default data by looking up utilities implementing marker interfaces.
 
+``karl.bootstrap.interfaces.IBootstrapper``
+        If a utility is registered with this interface, it is used to control
+        populating the database. If the desired application structure differs
+        significantly to the KARL defaults, you will likely want to implement
+        this utility. Unless this utility is registered / found, KARL will
+        default to initialise the database using
+        ``karl.bootstrap.bootstrap.populate``.
+
 ``karl.bootstrap.interfaces.IInitialData``
         By default KARL uses this to populate a number of example users and the groups they belong to.
 

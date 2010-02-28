@@ -48,8 +48,8 @@ In order to override existing declarations in KARL, this can be changed to::
 
 .. _customising-overriding-content:
 
-Overriding content created using ``repoze.lemonade.content.create_content``
----------------------------------------------------------------------------
+Overriding content created using ``repoze.lemonade``
+----------------------------------------------------
 
 .. note::
    

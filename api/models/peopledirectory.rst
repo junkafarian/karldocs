@@ -91,6 +91,7 @@
       .. method:: set_columns(columns)
          
          Reset ``self.columns`` to ``columns``
+      
    
    .. autoclass:: PeopleReportGroup(title)
       
@@ -104,6 +105,7 @@
          
          Reset ``self.reports`` to ``reports``
       
+   
    .. autoclass:: PeopleSectionColumn()
       
       A report group with an empty title

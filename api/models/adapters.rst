@@ -63,7 +63,7 @@
       
       TODO: ...
       
-      .. atribute:: docid
+      .. attribute:: docid
          
          The docid of ``self.context`` stored in the Catalog DocumentMap.
       

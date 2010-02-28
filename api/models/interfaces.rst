@@ -83,7 +83,7 @@
 
 .. autointerface:: karl.models.interfaces.IUserRemovedGroup
 
-.. autointerface:: karl.models.interfaces.IFeedContainer
+.. autointerface:: karl.models.interfaces.IFeedsContainer
 
 .. autointerface:: karl.models.interfaces.IFeed
 

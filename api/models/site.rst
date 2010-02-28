@@ -42,7 +42,7 @@
    
    .. function:: get_name(object, default)
       
-      Returns ``object``s ``__name__`` attriubute if it has one, otherwise
+      Returns ``object``s ``__name__`` attribute if it has one, otherwise
       returns ``default``. (Used for indexing)
    
    .. function:: get_title_firstletter(object, default)
@@ -138,7 +138,7 @@
          
          KARL users.
       
-      .. attriubte:: tags
+      .. attribute:: tags
          
          Site-wide tagging engine.
       

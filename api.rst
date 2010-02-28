@@ -16,4 +16,10 @@ The documentation is listed alphabetically by module name.
    api/errorlog
    api/errorpage
    api/events
+   api/evolve
+   api/handlers
+   api/includes
+   api/events
+   api/log
+   api/models
    api/utilities

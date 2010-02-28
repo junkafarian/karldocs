@@ -34,6 +34,7 @@ Other models:
    models/members
    models/peopledirectory
    models/profile
+   models/site
 
 Model interfaces
 

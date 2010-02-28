@@ -1,7 +1,7 @@
 .. _errorpage_module:
 
 :mod:`karl.errorpage`
-====================
+=====================
 
 .. automodule:: karl.errorpage
    

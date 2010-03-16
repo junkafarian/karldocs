@@ -1,3 +1,5 @@
+.. _entry-points:
+
 KARL Entry Points - Initialisation
 ==================================
 

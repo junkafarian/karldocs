@@ -1,6 +1,9 @@
 KARL Customisation
 ==================
 
+Introductions on how to customise KARL over and above what is allowed through
+the standard :ref:`entry points <entry-points>`.
+
 .. _customising-overriding-zcml:
 
 Overriding ZCML Configuration
@@ -99,3 +102,38 @@ ZCML:
       />
 
 
+.. _customising-selecting-modules:
+
+Selecting KARL modules for your application
+-------------------------------------------
+
+By default, :ref:`introduction-karlsample` includes the following directives in
+``configure.zcml``::
+
+     <include package="karl.includes"/>
+     <include package="karl.includes" file="workflow.zcml"/>
+     <include package="karl.content" />
+
+This includes all of the KARL modules. Some of these modules may be unnecessary
+(if the application is dropping some functionality provided by KARL). In this
+case it may be more prudent to include something like the following (omitting
+the unnecessary references)::
+     
+     
+     <include package="repoze.bfg.includes" />
+     <include package="karl.views" />
+     <include package="karl.models"/>
+     <include package="karl.utilities"/>
+     <include package="karl.security"/>
+     <include package="karl.tagging"/>
+     <include package="karl.adapters"/>
+     <include package="karl.cico"/>
+     <include package="karl.evolve"/>
+     <include package="karl.content"/>
+     <include package="karl.includes" file="workflow.zcml"/>
+     <include package="karl.content" />
+
+.. note::
+   
+   Beware of unforeseen behaviour arriving from removing subscribers /
+   registrations declared within the configuration of these modules.

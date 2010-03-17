@@ -62,7 +62,7 @@
 .. _script_generate_stats:
 
 :mod:`karl.scripts.generate_stats`
-------------------------------
+----------------------------------
 
 .. automodule:: karl.scripts.generate_stats
    
@@ -71,7 +71,7 @@
 .. _script_jsconcat:
 
 :mod:`karl.scripts.jsconcat`
-------------------------------
+----------------------------
 
 .. automodule:: karl.scripts.jsconcat
    
@@ -101,7 +101,7 @@
 .. _script_mvcontent:
 
 :mod:`karl.scripts.mvcontent`
-------------------------------
+-----------------------------
 
 .. automodule:: karl.scripts.mvcontent
 

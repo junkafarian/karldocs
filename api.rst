@@ -22,4 +22,6 @@ The documentation is listed alphabetically by module name.
    api/events
    api/log
    api/models
+   api/scripting
+   api/scripts
    api/utilities
